@@ -26,7 +26,7 @@ I have not included anything which could cause security issues like:
 - update your current voter address
 - request a special vote
 
-For anything like that login to the `https://registertovote.elections.org.za/Account/Login` site.
+For anything like that.. login to the `https://registertovote.elections.org.za/Account/Login` site.
 
 This API is simply for checking stats.
 
@@ -38,7 +38,7 @@ go to: https://maps.elections.org.za/vsfinder/
 
 ## Endpoints
 
-all work after logout
+All work without needing to login
 
 POST
 GET
@@ -69,7 +69,7 @@ WORKS after logout
 
 ## 1. Get Status
 
-`Autocomplete Search return` [*Check if there is any loadshedding*]
+`Autocomplete Search return` [*Returns the details aboul the street address*]
 
 {url} = https://gisapi.elections.org.za
 - {url}/IECGIS_VSFinder/api/autocomplete? 
