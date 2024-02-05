@@ -11,6 +11,9 @@
     * [Support website](https://support.techrad.co.za)
     * [API](https://www.techrad.co.za/apisource/public/apps/fusio)
 
+
+[<img src="img/qwefas321.jpg" width="500"/>](img/qwefas321.jpg)
+
 The year is 2024 and South Africa is having an election year like many other countries.
 
 I have compiled a list of a few useful API endpoints which allows someone to:
@@ -26,7 +29,7 @@ I have not included anything which could cause security issues like:
 - update your current voter address
 - request a special vote
 
-For anything like that.. login to the `https://registertovote.elections.org.za/Account/Login` site.
+For anything like that.. login to the https://registertovote.elections.org.za/Account/Login site.
 
 This API is simply for checking stats.
 
