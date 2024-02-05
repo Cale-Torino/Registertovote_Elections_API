@@ -34,12 +34,7 @@ This API is simply for checking stats.
 
 Check to see if you are properly registered in the correct voting station.
 
-Enter your ID number below for your registration status, voting station and ward details
-
-
-https://maps.elections.org.za/vsfinder/
-
-
+go to: https://maps.elections.org.za/vsfinder/
 
 ## Endpoints
 
