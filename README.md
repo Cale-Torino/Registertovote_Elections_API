@@ -11,7 +11,7 @@
     * [Support website](https://support.techrad.co.za)
     * [API](https://www.techrad.co.za/apisource/public/apps/fusio)
 
-The year is 2024 and South Africa is having an election year like many other countrys.
+The year is 2024 and South Africa is having an election year like many other countries.
 
 I have compiled a list of a few useful API endpoints which allows someone to:
 
@@ -20,7 +20,7 @@ I have compiled a list of a few useful API endpoints which allows someone to:
 
 Or simply to be aware of important information like upcoming election dates in your ward.
 
-I have not included anything which could cuase security issues like:
+I have not included anything which could cause security issues like:
 
 - register to vote
 - update your current voter address
