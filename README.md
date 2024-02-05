@@ -178,8 +178,6 @@ https://gisapi.elections.org.za/IECGIS_VSFinder/api/Municipality?municid=3003
 
 https://gisapi.elections.org.za/IECGIS_VSFinder/api/MEO?municid=3003
 
-
-
 ## Gov API docs
 
 https://gisapi.elections.org.za/iecgis_api/
