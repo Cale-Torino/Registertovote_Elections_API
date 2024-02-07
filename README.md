@@ -52,11 +52,11 @@ WORKS after logout
 
 WORKS after logout
 - {url}/IECGIS_VSFinder/api/places?
-    - {parameters} = placeid=EiZGYXJxdWhhciBSb2FkLCBMYWR5c21pdGgsIFNvdXRoIEFmcmljYSIuKiwKFAoSCaFOBrZMR_IeESdU8HrUV5FvEhQKEglJXdqRVUfyHhHAWV0W2DvXQw&guid=a58e1984-51a2-4d44-9228-aa7f2ac2e50e
+    - {parameters} = placeid=ChIJQarDjNJvlR4RLjGORId618Q&guid=a1234qdsew3r534tgfd
 
 WORKS after logout
 - {url}/IECGIS_VSFinder/api/VotingDistrict?
-    - {parameters} = latitude=-28.552764834140326&longitude=29.76976533135223
+    - {parameters} = latitude=-25.9949273697085&longitude=28.1144585302915
 
 WORKS after logout
 - {url}/IECGIS_VSFinder/api/Ward?
@@ -64,11 +64,11 @@ WORKS after logout
 
 WORKS after logout
 - {url}/IECGIS_VSFinder/api/Municipality?
-    - {parameters} = municid=4462
+    - {parameters} = municid=79800132
 
 WORKS after logout
 - {url}/IECGIS_VSFinder/api/MEO?
-    - {parameters} = municid=4462
+    - {parameters} = municid=79800132
 
 ## 1. Get Status
 
