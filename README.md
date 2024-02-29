@@ -70,7 +70,7 @@ WORKS after logout
 - {url}/IECGIS_VSFinder/api/MEO?
     - {parameters} = municid=79800132
 
-## 1. Get Status
+## 1. Search Return
 
 `Autocomplete Search return` [*Returns the details aboul the street address*]
 
@@ -160,6 +160,99 @@ https://gisapi.elections.org.za/IECGIS_VSFinder/api/autocomplete?
          "guid":"a1234qdsew3r534tgfd"
       }
    ]
+}
+```
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 2. Find Places
+
+`Find places earch return` [*Returns the details about the place*]
+
+{url} = https://gisapi.elections.org.za
+- {url}/IECGIS_VSFinder/api/places?
+    - {parameters} = placeid=aasdcw12e3wf&guid=a1234qdsew3r534tgfd
+
+-------------------
+
+### Calling Parameters (Input)
+| Parameter  |  Mode  | Description  | example values  |
+| :------------ | :------------ | :------------ | :------------ |
+|`placeid`  |string |id of place    |aasdcw12e3wf |
+|`guid`     |string |unique id      |a1234qdsew3r534tgfd |
+
+### Interface Address
+
+https://gisapi.elections.org.za/IECGIS_VSFinder/api/places?
+
+### Request Method
+
+- HTTP
+- POST
+
+### Response Parameters (Output)
+| Parameter  |  Mode  | Description  | example values  |
+| :------------ | :------------ | :------------ | :------------ |
+|`status`            |string      |Https        |OK    |
+|`StreetNr`          |string      |Https        |0E    |
+|`StreetName`        |string      |Https        |Smuts Drive    |
+|`Suburb`            |string      |Https        |Halfway Gardens    |
+|`Town`              |string      |Https        |Midrand    |
+|`Formatted_Address` |string      |Https        |0E Smuts Dr, Halfway Gardens, Midrand, 1686, South Africa    |
+|`Place_Address`     |string      |Https        |Golden Hills Estate    |
+|`Types`             |string      |Https        |point_of_interest    |
+|`LocationType`      |string      |Https        |null    |
+|`Latitude`          |string      |Https        |-25.9962329    |
+|`Longitude`         |string      |Https        |28.1131973    |
+|`ProvinceID`        |string      |Https        |3    |
+|`Province`          |string      |Https        |Gauteng    |
+|`MunicipalityID`    |string      |Https        |3003    |
+|`MunicipalityCode`  |string      |Https        |JHB     |
+|`Municipality`      |string      |Https        |JHB - City of Johannesburg    |
+|`Ward`              |string      |Https        |79800132    |
+|`VDNumber`          |string      |Https        |32910050    |
+|`Viewport`          |string      |Https        |Viewport{}    |
+|`northeast`         |string      |Https        |northeast{}    |
+|`northeast.lat`     |float       |Https        |-25.9949273697085    |
+|`northeast.lng`     |float       |Https        |28.1144585302915    |
+|`southwest`         |string      |Https        |southwest{}    |
+|`southwest.lat`     |float       |Https        |-25.99762533029151    |
+|`southwest.lng`     |float       |Https        |28.1117605697085    |
+
+
+### Response Result Example
+```JSON
+{
+   "Status":"OK",
+   "StreetNr":"0E",
+   "StreetName":"Smuts Drive",
+   "Suburb":"Halfway Gardens",
+   "Town":"Midrand",
+   "Formatted_Address":"0E Smuts Dr, Halfway Gardens, Midrand, 1686, South Africa",
+   "Place_Address":"Golden Hills Estate",
+   "Types":"point_of_interest",
+   "LocationType":null,
+   "Latitude":"-25.9962329",
+   "Longitude":"28.1131973",
+   "ProvinceID":"3",
+   "Province":"Gauteng",
+   "MunicipalityID":"3003",
+   "MunicipalityCode":"JHB",
+   "Municipality":"JHB - City of Johannesburg",
+   "Ward":"79800132",
+   "VDNumber":"32910050",
+   "Viewport":{
+      "northeast":{
+         "lat":-25.9949273697085,
+         "lng":28.1144585302915
+      },
+      "southwest":{
+         "lat":-25.99762533029151,
+         "lng":28.1117605697085
+      }
+   }
 }
 ```
 
